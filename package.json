@@ -1,11 +1,17 @@
 {
   "name": "typescript-nodejs-minimal-starter",
   "version": "1.0.0",
-  "description": "Starter project for node typescript applications",
-  "main": "bin/index.js",
+  "description": "Starter project for nodejs typescript applications",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "npm run build && npm run start"
   },
   "author": "Jesse Stolwijk",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "13.13.5",
+    "typescript": "3.8.3"
+  }
 }
