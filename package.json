@@ -1,0 +1,11 @@
+{
+  "name": "typescript-nodejs-minimal-starter",
+  "version": "1.0.0",
+  "description": "Starter project for node typescript applications",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Stolwijk",
+  "license": "ISC"
+}
