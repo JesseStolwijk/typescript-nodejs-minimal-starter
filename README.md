@@ -2,6 +2,11 @@
 
 This repo contains all setup required to run a basic typscript NodeJS application.
 
+## How to use this starter
+
+Run: `git clone https://github.com/JesseStolwijk/typescript-nodejs-minimal-starter.git <your_project_name>`
+Update the `name`, `description` and `author` fields in the `package.json` file.
+
 ## npm run-scripts
 
 To build your typescript application run: `npm run build`
